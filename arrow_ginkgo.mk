@@ -27,6 +27,7 @@ $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+ARROW_MIPA := true
 $(call inherit-product, vendor/arrow/config/common.mk)
 
 # Device identifier
