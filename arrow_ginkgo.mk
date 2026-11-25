@@ -27,8 +27,7 @@ $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
-ARROW_MIPA := true
-ARROW_MAINTAINER := Hirokixd
+DEVICE_MAINTAINER := Hirokixd
 $(call inherit-product, vendor/arrow/config/common.mk)
 
 # Device identifier
@@ -38,4 +37,3 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8/8T
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-DEVICE_MAINTAINER := Hirokixd28
