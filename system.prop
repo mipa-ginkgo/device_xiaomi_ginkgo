@@ -1,3 +1,11 @@
+# Arrow Stuff
+# Hardware Description
+ro.ext.model=M1908C3JH                                                                  
+ro.ext.processor=Snapdragon 665                                                         
+ro.ext.battery=4000                                                                     
+ro.ext.camera.front=13                                                                  
+ro.ext.camera.rear=48
+
 # Bluetooth
 persist.bluetooth.bqr.event_mask=14
 persist.bluetooth.bqr.min_interval_ms=500

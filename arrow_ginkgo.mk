@@ -28,6 +28,8 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 DEVICE_MAINTAINER := Hirokixd
+DEVICE_MAINTAINER_LINK := https://t.me/Hirokixd28
+
 $(call inherit-product, vendor/arrow/config/common.mk)
 
 # Device identifier
